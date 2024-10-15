@@ -1,0 +1,26 @@
+excel sheet has columns as   ID	Applicant_Name	Gender	District	State	Pincode	Ownership	GovtID_Type	ID_Number		Load_Applied (in KV)	Date_of_Application	Date_of_Approval	Modified_Date	Status	Reviewer_ID	Reviewer_Name	Reviewer_Comments
+
+I want to create 3 tables out of it 
+
+
+Applicant_Name	Gender	District	State	Pincode	GovtID_Type	ID_Number   #usertable
+
+applicant_id(same as ID_number) Ownership Load_Applied (in KV)	Date_of_Application	Date_of_Approval	Modified_Date	Status	Reviewer_ID	Reviewer_Comments #application table 
+
+Reviewer_ID Reviewer_Name # reviwer_table  #reviewer table
+
+
+folder structure is 
+common_
+       |_database.py
+controller_
+           |_api_service_controller.py
+route_
+      |_api_service_routes.py
+_api_service_application.py
+
+this is folder structure
+this is dtabase structure
+i need to write api to retrieve all applications
+to retrieve user by hi ID
+to update the application row

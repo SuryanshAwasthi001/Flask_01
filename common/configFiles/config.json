@@ -1,0 +1,8 @@
+{
+	"PORT": 2000,
+	"HOST": "localhost",
+	"db_remote":"postgresql://default:ckE5So4RDmIK@ep-little-forest-480166.us-east-1.postgres.vercel-storage.com:5432/verceldb",
+	"db_local":"mysql://root:Suryansh.12@localhost:3306/bcg_db"
+}
+
+

@@ -1,0 +1,180 @@
+{
+	"info": {
+		"_postman_id": "c60ca845-49ad-4cdf-b689-3854e482dd0c",
+		"name": "bcg",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33179989"
+	},
+	"item": [
+		{
+			"name": "http://0.0.0.0:2000/api/v1/connections/update_application",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 6,\r\n    \"applicant_id\": \"948958000000\",\r\n    \"ownership\": \"hhhh\",\r\n    \"load_applied\": 5.0,\r\n    \"date_of_application\": \"0003-04-21\",\r\n    \"date_of_approval\": \"1924-01-01\",\r\n    \"modified_date\": \"0003-05-21\",\r\n    \"status\": \"Pending\",\r\n    \"reviewer_id\": 1678.0,\r\n    \"reviewer_comments\": \"Documents verification in progress\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://0.0.0.0:2000/api/v1/connections/update_application",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "2000",
+					"path": [
+						"api",
+						"v1",
+						"connections",
+						"update_application"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://0.0.0.0:2000/api/v1/connections/get_reviewer",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reviewer_id\":2456\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://0.0.0.0:2000/api/v1/connections/get_reviewer",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "2000",
+					"path": [
+						"api",
+						"v1",
+						"connections",
+						"get_reviewer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://0.0.0.0:2000/api/v1/connections/get_application",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_id\":6\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://0.0.0.0:2000/api/v1/connections/get_application",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "2000",
+					"path": [
+						"api",
+						"v1",
+						"connections",
+						"get_application"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:2000/api/v1/connections/getAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:2000/api/v1/connections/getAll",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "2000",
+					"path": [
+						"api",
+						"v1",
+						"connections",
+						"getAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://0.0.0.0:2000/api/v1/connections/get_user",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_id\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://0.0.0.0:2000/api/v1/connections/get_user",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "2000",
+					"path": [
+						"api",
+						"v1",
+						"connections",
+						"get_user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

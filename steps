@@ -1,0 +1,11 @@
+decide to create DEBout of my sql
+decided to put it inside common database and utils inside database
+
+
+common
+|_data
+|    |_utils.py
+|_database.py
+this is my folder structure i want to import datbas into utils     
+
+    when running indivual modules better to change to patretn directory of that module if all the relative reading are made from the ced
